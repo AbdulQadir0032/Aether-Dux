@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Aether Dux — Aerial Technology. Limitless Possibilities. Autonomous flight systems, precision delivery and emergency response.">
+  <title>Services & Solutions | Aether Dux</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            forest: '#063b2d',
+            forest2: '#0b5a43',
+            gold: '#c9a24a',
+            charcoal: '#111817'
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<header class="sticky top-0 z-50 border-b border-slate-200/80 bg-white/90 backdrop-blur-xl">
+  <div class="mx-auto flex max-w-7xl items-center justify-between px-5 py-3 lg:px-8">
+    <a href="index.html" class="flex items-center gap-3" aria-label="Aether Dux home">
+      <img src="assets/aether-dux-logo.png" alt="Aether Dux logo" class="h-12 w-auto object-contain">
+    </a>
+
+    <nav class="hidden items-center gap-7 lg:flex" aria-label="Primary navigation">
+      <a data-nav-link href="index.html" class="nav-link text-sm font-bold text-slate-700 hover:text-[#063b2d]">Home</a>
+      <a data-nav-link href="about.html" class="nav-link text-sm font-bold text-slate-700 hover:text-[#063b2d]">About</a>
+      <a data-nav-link href="solutions.html" class="nav-link text-sm font-bold text-slate-700 hover:text-[#063b2d]">Solutions</a>
+      <a data-nav-link href="technology.html" class="nav-link text-sm font-bold text-slate-700 hover:text-[#063b2d]">Technology</a>
+      <a data-nav-link href="contact.html" class="nav-link text-sm font-bold text-slate-700 hover:text-[#063b2d]">Partnership</a>
+    </nav>
+
+    <div class="hidden lg:block">
+      <a href="contact.html" class="btn-primary text-sm">Partner With Us <span aria-hidden="true">↗</span></a>
+    </div>
+
+    <button data-menu-button aria-expanded="false" aria-controls="mobile-menu" class="rounded-xl border border-slate-200 p-2.5 text-slate-800 lg:hidden" aria-label="Open navigation menu">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+        <path d="M4 7h16M4 12h16M4 17h16"/>
+      </svg>
+    </button>
+  </div>
+
+  <div id="mobile-menu" data-mobile-menu class="mobile-menu closed border-t border-slate-200 bg-white lg:hidden">
+    <nav class="mx-auto flex max-w-7xl flex-col px-5 py-3" aria-label="Mobile navigation">
+      <a data-nav-link href="index.html" class="border-b border-slate-100 py-3 text-sm font-bold">Home</a>
+      <a data-nav-link href="about.html" class="border-b border-slate-100 py-3 text-sm font-bold">About</a>
+      <a data-nav-link href="solutions.html" class="border-b border-slate-100 py-3 text-sm font-bold">Solutions</a>
+      <a data-nav-link href="technology.html" class="border-b border-slate-100 py-3 text-sm font-bold">Technology</a>
+      <a data-nav-link href="contact.html" class="py-3 text-sm font-bold">Partnership</a>
+      <a href="contact.html" class="btn-primary my-3 text-sm">Partner With Us <span aria-hidden="true">↗</span></a>
+    </nav>
+  </div>
+</header>
+
+
+<main>
+<section class="page-hero border-b border-slate-200">
+  <div class="mx-auto max-w-7xl px-5 py-20 lg:px-8 lg:py-24">
+    <div class="max-w-4xl reveal">
+      <div class="section-label">Services & solutions</div>
+      <h1 class="mt-5 font-display text-5xl font-extrabold tracking-[-.04em] text-[#063b2d] sm:text-6xl">Aerial systems designed around the mission.</h1>
+      <p class="mt-6 max-w-3xl text-lg leading-8 text-slate-600">From a single urgent delivery to a complete autonomous platform, we engineer the aircraft, autonomy and operational workflow together.</p>
+    </div>
+  </div>
+</section>
+
+<section class="py-16 lg:py-24">
+  <div class="mx-auto max-w-7xl space-y-8 px-5 lg:px-8">
+    <article id="emergency" class="scroll-mt-28 grid gap-8 rounded-[2rem] border border-slate-200 bg-[#f5f8f6] p-7 lg:grid-cols-[.8fr_1.2fr] lg:p-10 reveal">
+      <div>
+        <span class="inline-flex rounded-full bg-[#063b2d] px-3 py-1 text-xs font-extrabold text-[#e5cc87]">01 / Emergency Response</span>
+        <h2 class="mt-5 font-display text-3xl font-extrabold text-[#063b2d]">Rapid aerial response when ground access fails.</h2>
+      </div>
+      <div>
+        <p class="leading-8 text-slate-600">Autonomous platforms can support disaster assessment, search and rescue, situational awareness and medical supply transport in time-sensitive environments.</p>
+        <ul class="mt-6 grid gap-3 sm:grid-cols-2 text-sm font-semibold text-slate-700">
+          <li>✓ Search & rescue support</li><li>✓ Disaster-area reconnaissance</li><li>✓ Medical payload transport</li><li>✓ Emergency communications support</li>
+        </ul>
+      </div>
+    </article>
+
+    <article id="delivery" class="scroll-mt-28 grid gap-8 rounded-[2rem] border border-slate-200 bg-white p-7 shadow-soft lg:grid-cols-[.8fr_1.2fr] lg:p-10 reveal">
+      <div>
+        <span class="inline-flex rounded-full bg-[#e5cc87] px-3 py-1 text-xs font-extrabold text-[#063b2d]">02 / Precision Delivery</span>
+        <h2 class="mt-5 font-display text-3xl font-extrabold text-[#063b2d]">Move the right payload to the right place.</h2>
+      </div>
+      <div>
+        <p class="leading-8 text-slate-600">Build aerial logistics workflows for remote, urgent and high-value payloads where accuracy, speed and repeatability matter.</p>
+        <ul class="mt-6 grid gap-3 sm:grid-cols-2 text-sm font-semibold text-slate-700">
+          <li>✓ Route planning</li><li>✓ Payload integration</li><li>✓ Geofenced operations</li><li>✓ Delivery verification</li>
+        </ul>
+      </div>
+    </article>
+
+    <article id="engineering" class="scroll-mt-28 grid gap-8 rounded-[2rem] border border-slate-200 bg-[#111817] p-7 text-white shadow-deep lg:grid-cols-[.8fr_1.2fr] lg:p-10 reveal">
+      <div>
+        <span class="inline-flex rounded-full bg-white/10 px-3 py-1 text-xs font-extrabold text-[#e5cc87]">03 / Custom Drone Engineering</span>
+        <h2 class="mt-5 font-display text-3xl font-extrabold">Hardware and software engineered from the problem up.</h2>
+      </div>
+      <div>
+        <p class="leading-8 text-slate-300">When off-the-shelf aircraft are not enough, Aether Dux can help define the airframe, propulsion, sensing, flight computer, autonomy layer and mission interface.</p>
+        <ul class="mt-6 grid gap-3 sm:grid-cols-2 text-sm font-semibold text-slate-200">
+          <li>✓ Airframe & propulsion</li><li>✓ Flight-control integration</li><li>✓ Computer vision & AI</li><li>✓ Ground-station workflows</li>
+        </ul>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="bg-[#063b2d] py-20 text-white">
+  <div class="mx-auto max-w-7xl px-5 lg:px-8">
+    <div class="max-w-3xl reveal">
+      <div class="section-label !text-[#e5cc87]">Engagement model</div>
+      <h2 class="mt-4 font-display text-4xl font-extrabold">From mission brief to flight-ready system.</h2>
+      <p class="mt-4 leading-8 text-slate-300">We can structure engagements around discovery, prototype development, testing, deployment and continuous improvement.</p>
+    </div>
+    <div class="mt-10 grid gap-4 md:grid-cols-4">
+      <div class="rounded-2xl border border-white/10 bg-white/5 p-5"><p class="text-[#e5cc87]">01</p><p class="mt-2 font-bold">Discover</p></div>
+      <div class="rounded-2xl border border-white/10 bg-white/5 p-5"><p class="text-[#e5cc87]">02</p><p class="mt-2 font-bold">Design</p></div>
+      <div class="rounded-2xl border border-white/10 bg-white/5 p-5"><p class="text-[#e5cc87]">03</p><p class="mt-2 font-bold">Validate</p></div>
+      <div class="rounded-2xl border border-white/10 bg-white/5 p-5"><p class="text-[#e5cc87]">04</p><p class="mt-2 font-bold">Deploy</p></div>
+    </div>
+  </div>
+</section>
+</main>
+
+
+<footer class="border-t border-slate-200 bg-[#f7faf8]">
+  <div class="mx-auto grid max-w-7xl gap-10 px-5 py-12 md:grid-cols-2 lg:grid-cols-4 lg:px-8">
+    <div class="lg:col-span-2">
+      <img src="assets/aether-dux-logo.png" alt="Aether Dux" class="h-16 w-auto object-contain object-left">
+      <p class="mt-4 max-w-md text-sm leading-7 text-slate-600">
+        Autonomous aerial technology engineered for emergency response, precision delivery and mission-critical operations.
+      </p>
+    </div>
+    <div>
+      <p class="font-display font-extrabold text-[#063b2d]">Explore</p>
+      <div class="mt-4 space-y-2 text-sm text-slate-600">
+        <a class="block hover:text-[#063b2d]" href="about.html">About Us</a>
+        <a class="block hover:text-[#063b2d]" href="solutions.html">Solutions</a>
+        <a class="block hover:text-[#063b2d]" href="technology.html">Technology</a>
+        <a class="block hover:text-[#063b2d]" href="contact.html">Partnership</a>
+      </div>
+    </div>
+    <div>
+      <p class="font-display font-extrabold text-[#063b2d]">Connect</p>
+      <div class="mt-4 space-y-2 text-sm text-slate-600">
+        <p>Lagos, Nigeria</p>
+        <a class="block hover:text-[#063b2d]" href="mailto:hello@aetherdux.com">hello@aetherdux.com</a>
+        <a class="block hover:text-[#063b2d]" href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn ↗</a>
+        <a class="block hover:text-[#063b2d]" href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram ↗</a>
+      </div>
+    </div>
+  </div>
+  <div class="border-t border-slate-200">
+    <div class="mx-auto flex max-w-7xl flex-col gap-2 px-5 py-5 text-xs text-slate-500 sm:flex-row sm:items-center sm:justify-between lg:px-8">
+      <p>© <span data-year></span> Aether Dux. All rights reserved.</p>
+      <p>Aerial Technology. Limitless Possibilities.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/script.js"></script>
+</body>
+</html>

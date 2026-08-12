@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Aether Dux — Aerial Technology. Limitless Possibilities. Autonomous flight systems, precision delivery and emergency response.">
+  <title>Home | Aether Dux</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            forest: '#063b2d',
+            forest2: '#0b5a43',
+            gold: '#c9a24a',
+            charcoal: '#111817'
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<header class="sticky top-0 z-50 border-b border-slate-200/80 bg-white/90 backdrop-blur-xl">
+  <div class="mx-auto flex max-w-7xl items-center justify-between px-5 py-3 lg:px-8">
+    <a href="index.html" class="flex items-center gap-3" aria-label="Aether Dux home">
+      <img src="assets/aether-dux-logo.png" alt="Aether Dux logo" class="h-12 w-auto object-contain">
+    </a>
+
+    <nav class="hidden items-center gap-7 lg:flex" aria-label="Primary navigation">
+      <a data-nav-link href="index.html" class="nav-link text-sm font-bold text-slate-700 hover:text-[#063b2d]">Home</a>
+      <a data-nav-link href="about.html" class="nav-link text-sm font-bold text-slate-700 hover:text-[#063b2d]">About</a>
+      <a data-nav-link href="solutions.html" class="nav-link text-sm font-bold text-slate-700 hover:text-[#063b2d]">Solutions</a>
+      <a data-nav-link href="technology.html" class="nav-link text-sm font-bold text-slate-700 hover:text-[#063b2d]">Technology</a>
+      <a data-nav-link href="contact.html" class="nav-link text-sm font-bold text-slate-700 hover:text-[#063b2d]">Partnership</a>
+    </nav>
+
+    <div class="hidden lg:block">
+      <a href="contact.html" class="btn-primary text-sm">Partner With Us <span aria-hidden="true">↗</span></a>
+    </div>
+
+    <button data-menu-button aria-expanded="false" aria-controls="mobile-menu" class="rounded-xl border border-slate-200 p-2.5 text-slate-800 lg:hidden" aria-label="Open navigation menu">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+        <path d="M4 7h16M4 12h16M4 17h16"/>
+      </svg>
+    </button>
+  </div>
+
+  <div id="mobile-menu" data-mobile-menu class="mobile-menu closed border-t border-slate-200 bg-white lg:hidden">
+    <nav class="mx-auto flex max-w-7xl flex-col px-5 py-3" aria-label="Mobile navigation">
+      <a data-nav-link href="index.html" class="border-b border-slate-100 py-3 text-sm font-bold">Home</a>
+      <a data-nav-link href="about.html" class="border-b border-slate-100 py-3 text-sm font-bold">About</a>
+      <a data-nav-link href="solutions.html" class="border-b border-slate-100 py-3 text-sm font-bold">Solutions</a>
+      <a data-nav-link href="technology.html" class="border-b border-slate-100 py-3 text-sm font-bold">Technology</a>
+      <a data-nav-link href="contact.html" class="py-3 text-sm font-bold">Partnership</a>
+      <a href="contact.html" class="btn-primary my-3 text-sm">Partner With Us <span aria-hidden="true">↗</span></a>
+    </nav>
+  </div>
+</header>
+
+
+<main>
+<section class="relative overflow-hidden bg-[#071b16] text-white">
+  <div class="absolute inset-0 bg-grid-dark opacity-50"></div>
+  <div class="absolute -left-32 top-20 h-80 w-80 rounded-full bg-emerald-500/10 blur-3xl"></div>
+  <div class="absolute right-0 top-0 h-96 w-96 rounded-full bg-amber-300/10 blur-3xl"></div>
+
+  <div class="relative mx-auto grid max-w-7xl items-center gap-12 px-5 py-20 lg:grid-cols-[1.05fr_.95fr] lg:px-8 lg:py-28">
+    <div class="reveal">
+      <div class="section-label !text-[#e5cc87]">Autonomous aerial systems</div>
+      <h1 class="text-balance mt-5 max-w-4xl font-display text-5xl font-extrabold leading-[1.02] tracking-[-.04em] sm:text-6xl lg:text-7xl">
+        The sky is no longer the limit.
+      </h1>
+      <p class="mt-6 max-w-2xl text-base leading-8 text-slate-300 sm:text-lg">
+        Aether Dux engineers autonomous flight systems for the missions that cannot wait — from emergency response and search-and-rescue to precision delivery and custom aerial platforms.
+      </p>
+      <div class="mt-8 flex flex-col gap-3 sm:flex-row">
+        <a href="technology.html" class="btn-primary !bg-[#e5cc87] !text-[#10241d]">Explore Technology <span>→</span></a>
+        <a href="contact.html" class="btn-secondary !border-white/20 !bg-white/5 !text-white">Partner With Us <span>↗</span></a>
+      </div>
+      <div class="mt-10 flex flex-wrap gap-x-8 gap-y-3 text-xs font-bold uppercase tracking-[.16em] text-slate-400">
+        <span>AI Navigation</span><span>Mission Autonomy</span><span>Precision Payloads</span>
+      </div>
+    </div>
+
+    <div class="relative mx-auto flex min-h-[430px] w-full max-w-[580px] items-center justify-center reveal">
+      <div class="hero-orbit"></div>
+      <div class="absolute h-72 w-72 rounded-full border border-emerald-400/20"></div>
+      <div class="absolute h-3 w-3 rounded-full bg-[#e5cc87] shadow-[0_0_24px_rgba(229,204,135,.9)]"></div>
+
+      <svg class="float relative z-10 h-auto w-full drop-shadow-[0_35px_40px_rgba(0,0,0,.35)]" viewBox="0 0 700 430" role="img" aria-label="Abstract autonomous drone flight visualization">
+        <defs>
+          <linearGradient id="metal" x1="0" x2="1">
+            <stop offset="0" stop-color="#f7faf8"/>
+            <stop offset=".5" stop-color="#9aa9a4"/>
+            <stop offset="1" stop-color="#ffffff"/>
+          </linearGradient>
+          <linearGradient id="wing" x1="0" x2="1">
+            <stop offset="0" stop-color="#0f7658"/>
+            <stop offset="1" stop-color="#063b2d"/>
+          </linearGradient>
+          <filter id="glow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+        </defs>
+        <path class="flight-line" d="M30 335 C180 90, 470 55, 670 120" fill="none" stroke="#c9a24a" stroke-width="2" opacity=".7"/>
+        <path d="M110 255 L235 175 L320 205 L350 175 L380 205 L465 175 L590 255 L430 230 L350 285 L270 230 Z" fill="url(#wing)" stroke="#e5cc87" stroke-width="3"/>
+        <path d="M350 90 L378 180 L350 278 L322 180 Z" fill="url(#metal)" stroke="#d9e2de" stroke-width="3"/>
+        <path d="M322 180 L350 205 L378 180" fill="none" stroke="#0b5a43" stroke-width="7"/>
+        <circle cx="350" cy="205" r="12" fill="#c9a24a" filter="url(#glow)"/>
+        <path d="M270 230 L350 285 L430 230" fill="none" stroke="#e5cc87" stroke-width="3"/>
+        <g fill="#e5cc87">
+          <circle cx="82" cy="285" r="3"/><circle cx="128" cy="245" r="3"/><circle cx="560" cy="170" r="3"/><circle cx="612" cy="142" r="3"/>
+        </g>
+      </svg>
+
+      <div class="absolute bottom-4 left-4 rounded-2xl border border-white/10 bg-white/5 px-4 py-3 backdrop-blur-md">
+        <div class="flex items-center gap-3">
+          <span class="relative flex h-3 w-3"><span class="pulse-ring absolute inset-0 rounded-full bg-emerald-300"></span><span class="relative h-3 w-3 rounded-full bg-emerald-300"></span></span>
+          <div><p class="text-[10px] uppercase tracking-[.18em] text-slate-400">Mission status</p><p class="text-sm font-bold">Autonomous route active</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-white py-20 lg:py-28">
+  <div class="mx-auto grid max-w-7xl gap-14 px-5 lg:grid-cols-2 lg:px-8">
+    <div class="reveal">
+      <div class="section-label">Mission overview</div>
+      <h2 class="mt-4 max-w-xl font-display text-4xl font-extrabold tracking-[-.03em] text-[#063b2d] sm:text-5xl">Autonomy that moves when every second matters.</h2>
+    </div>
+    <div class="reveal">
+      <p class="text-lg leading-8 text-slate-600">Aether Dux combines autonomous navigation, intelligent sensing and mission-focused aircraft design to make aerial operations faster, safer and more dependable.</p>
+      <p class="mt-5 text-base leading-7 text-slate-600">Our focus is practical autonomy: getting critical payloads and intelligence where they are needed, even when roads, distance or terrain make conventional logistics difficult.</p>
+      <a href="about.html" class="mt-6 inline-flex items-center gap-2 font-extrabold text-[#063b2d] hover:text-[#0b5a43]">Discover our mission <span>→</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="bg-[#f5f8f6] py-20 lg:py-24">
+  <div class="mx-auto max-w-7xl px-5 lg:px-8">
+    <div class="reveal text-center">
+      <div class="section-label justify-center">Core pillars</div>
+      <h2 class="mt-4 font-display text-4xl font-extrabold tracking-[-.03em] text-[#063b2d]">Built for the missions ahead.</h2>
+    </div>
+    <div class="mt-12 grid gap-5 md:grid-cols-3">
+      <a href="solutions.html#emergency" class="card-hover reveal rounded-3xl border border-slate-200 bg-white p-7">
+        <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-[#063b2d] text-[#e5cc87]">01</div>
+        <h3 class="mt-6 font-display text-2xl font-extrabold text-[#063b2d]">Emergency Response</h3>
+        <p class="mt-3 text-sm leading-7 text-slate-600">Rapid aerial deployment for search, rescue, disaster assessment and medical payload transport.</p>
+        <span class="mt-6 inline-flex text-sm font-extrabold text-[#0b5a43]">Explore solution →</span>
+      </a>
+      <a href="solutions.html#delivery" class="card-hover reveal rounded-3xl border border-slate-200 bg-white p-7">
+        <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-[#e5cc87] text-[#063b2d]">02</div>
+        <h3 class="mt-6 font-display text-2xl font-extrabold text-[#063b2d]">Precision Delivery</h3>
+        <p class="mt-3 text-sm leading-7 text-slate-600">High-accuracy logistics for urgent, remote or hard-to-reach payloads and enterprise operations.</p>
+        <span class="mt-6 inline-flex text-sm font-extrabold text-[#0b5a43]">Explore solution →</span>
+      </a>
+      <a href="solutions.html#engineering" class="card-hover reveal rounded-3xl border border-slate-200 bg-white p-7">
+        <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-[#111817] text-white">03</div>
+        <h3 class="mt-6 font-display text-2xl font-extrabold text-[#063b2d]">Custom Engineering</h3>
+        <p class="mt-3 text-sm leading-7 text-slate-600">Purpose-built aircraft, autonomy stacks and mission systems engineered around the problem.</p>
+        <span class="mt-6 inline-flex text-sm font-extrabold text-[#0b5a43]">Explore solution →</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="bg-[#063b2d] py-20 text-white">
+  <div class="mx-auto flex max-w-7xl flex-col items-start justify-between gap-8 px-5 lg:flex-row lg:items-center lg:px-8">
+    <div class="reveal">
+      <div class="section-label !text-[#e5cc87]">Start a mission</div>
+      <h2 class="mt-4 max-w-3xl font-display text-4xl font-extrabold tracking-[-.03em] sm:text-5xl">Have a mission that needs the sky?</h2>
+      <p class="mt-4 max-w-2xl text-slate-300">Tell us what you need to move, monitor or solve. We can explore the right aerial architecture with you.</p>
+    </div>
+    <a href="contact.html" class="btn-primary !bg-[#e5cc87] !text-[#10241d] shrink-0">Talk to Aether Dux ↗</a>
+  </div>
+</section>
+</main>
+
+
+<footer class="border-t border-slate-200 bg-[#f7faf8]">
+  <div class="mx-auto grid max-w-7xl gap-10 px-5 py-12 md:grid-cols-2 lg:grid-cols-4 lg:px-8">
+    <div class="lg:col-span-2">
+      <img src="assets/aether-dux-logo.png" alt="Aether Dux" class="h-16 w-auto object-contain object-left">
+      <p class="mt-4 max-w-md text-sm leading-7 text-slate-600">
+        Autonomous aerial technology engineered for emergency response, precision delivery and mission-critical operations.
+      </p>
+    </div>
+    <div>
+      <p class="font-display font-extrabold text-[#063b2d]">Explore</p>
+      <div class="mt-4 space-y-2 text-sm text-slate-600">
+        <a class="block hover:text-[#063b2d]" href="about.html">About Us</a>
+        <a class="block hover:text-[#063b2d]" href="solutions.html">Solutions</a>
+        <a class="block hover:text-[#063b2d]" href="technology.html">Technology</a>
+        <a class="block hover:text-[#063b2d]" href="contact.html">Partnership</a>
+      </div>
+    </div>
+    <div>
+      <p class="font-display font-extrabold text-[#063b2d]">Connect</p>
+      <div class="mt-4 space-y-2 text-sm text-slate-600">
+        <p>Lagos, Nigeria</p>
+        <a class="block hover:text-[#063b2d]" href="mailto:hello@aetherdux.com">hello@aetherdux.com</a>
+        <a class="block hover:text-[#063b2d]" href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn ↗</a>
+        <a class="block hover:text-[#063b2d]" href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram ↗</a>
+      </div>
+    </div>
+  </div>
+  <div class="border-t border-slate-200">
+    <div class="mx-auto flex max-w-7xl flex-col gap-2 px-5 py-5 text-xs text-slate-500 sm:flex-row sm:items-center sm:justify-between lg:px-8">
+      <p>© <span data-year></span> Aether Dux. All rights reserved.</p>
+      <p>Aerial Technology. Limitless Possibilities.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
